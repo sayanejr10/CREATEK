@@ -1,0 +1,102 @@
+.App {
+    font-family: Arial, sans-serif;
+}
+
+.top-bar-first-line {
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    padding: 10px;
+    background-color: #f8f8f8; /* Couleur de fond de la barre supérieure */
+    border-bottom: 1px solid #ddd; /* Ligne de séparation en bas */
+}
+
+.logo-line img {
+    height: 50px; /* Ajustez la taille du logo selon vos besoins */
+    margin-right: 20px; /* Espace entre le logo et la barre de recherche */
+}
+
+.search-bar {
+    border-radius: 8px;
+    border: 2px solid orange;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.filter-button {
+    margin-left: 10px; /* Espace entre la barre de recherche et le bouton de filtre */
+    padding: 8px 12px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: #f0f0f0; /* Change la couleur de fond au survol du bouton */
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 4px;
+    z-index: 1000;
+    margin-top: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    border: none;
+    background: none;
+    cursor: pointer; /* Change le curseur pour indiquer que c'est cliquable */
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0; /* Change la couleur de fond au survol */
+}
+
+.cart-icon {
+    margin-left: auto; /* Pousse l'icône du panier à droite */
+    display: flex;
+    align-items: center; /* Aligne l'icône et le compteur verticalement */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    color: black; /* Couleur du texte */
+}
+
+.cart-count {
+    background-color: orange; /* Couleur de fond du compteur */
+    color: white; /* Couleur du texte du compteur */
+    border-radius: 50%; /* Arrondit le compteur */
+    padding: 2px 6px; /* Espace autour du texte du compteur */
+    margin-left: 5px; /* Espace entre l'icône et le compteur */
+}
+
+.separator {
+    height: 1px;
+    background-color: #ddd; /* Couleur de la ligne de séparation */
+    margin: 10px 0; /* Espace au-dessus et en dessous de la ligne */
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-to-top:hover {
+    background-color: darkorange; /* Change la couleur au survol */
+}

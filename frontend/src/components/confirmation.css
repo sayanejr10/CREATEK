@@ -1,0 +1,12 @@
+.menu-button:hover {
+    background-color: #cc8400; /* Teinte plus foncée d'orange pour le survol */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+/* Conteneur principal pour la page admin */
+.admin-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Style pour le titre */
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style pour le tableau des commandes */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style pour les en-têtes du tableau */
+.orders-table th, .orders-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Couleurs de fond pour les différentes statuts */
+.status-pending {
+    background-color: #ffeb3b !important; /* Jaune pour en attente */
+}
+
+.status-processed {
+    background-color: #03a9f4 !important; /* Bleu pour traité */
+}
+
+.status-shipped {
+    background-color: #ff9800 !important; /* Orange pour expédié */
+}
+
+.status-delivered {
+    background-color: #4caf50 !important; /* Vert pour livré */
+}
+
+.status-cancelled {
+    background-color: #f44336 !important; /* Rouge pour annulé */
+}
+
+/* Style pour les messages d'erreur */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
